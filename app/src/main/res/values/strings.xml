@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">InternshipTasks</string>
+    <string name="task_1_user_form">Task 1 User Form</string>
+    <string name="task_2_color_screen">Task 2 Color Screen</string>
+    <string name="task_3_reset_button">Task 3 Reset Button</string>
+    <string name="task_4_activity_to_fragment">Task 4 Activity To Fragment</string>
+    <string name="task_5_phone_calls_data">Task 5 Phone Calls Data</string>
+    <string name="task_6_firebase_connection">Task 6 Firebase Connection</string>
+    <string name="task_3_counter_task">Task 3 Counter Task</string>
+    <string name="user_information">User Information</string>
+</resources>

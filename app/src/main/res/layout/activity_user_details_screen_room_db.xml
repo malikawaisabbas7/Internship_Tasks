@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User Details"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="2dp"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/etNameEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your name.."
+            android:inputType="textPersonName"
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/form_box_bg_task8" />
+
+        <TextView
+            android:id="@+id/tvNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Number"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="2dp"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/etNumberEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your number.."
+            android:inputType="phone"
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/form_box_bg_task8" />
+
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="2dp"
+            android:layout_marginBottom="8dp" />
+
+
+        <EditText
+            android:id="@+id/etEmailEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your email.."
+            android:inputType="textEmailAddress"
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/form_box_bg_task8" />
+
+        <TextView
+            android:id="@+id/tvAge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Age"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="2dp"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/etAgeEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your age.."
+            android:inputType="number"
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/form_box_bg_task8" />
+
+        <TextView
+            android:id="@+id/tvGender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="2dp"
+            android:layout_marginBottom="8dp" />
+
+        <Spinner
+            android:id="@+id/spinnerGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/form_box_bg_task8" />
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            android:layout_marginBottom="12dp" />
+
+    </LinearLayout>
+
+</ScrollView>

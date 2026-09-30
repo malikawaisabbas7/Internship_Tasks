@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:paddingTop="14dp"
+    android:paddingBottom="14dp">
+
+    <TextView
+        android:id="@+id/tvForecastDate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Today"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/tvForecastIcon"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="☀️"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/tvForecastCondition"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Fair"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/tvForecastTemperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="21° / 34°"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

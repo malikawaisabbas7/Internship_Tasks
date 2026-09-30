@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/news_background_task9">
+
+    <TextView
+        android:id="@+id/tvNewsTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Local News"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tvNewsLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📍 Location"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:id="@+id/tvNewsStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Loading news..."
+        android:textSize="15sp"
+        android:gravity="center"
+        android:layout_marginBottom="8dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewNews"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:menu="@menu/bottom_navigation_menu_task9" />
+
+</LinearLayout>
