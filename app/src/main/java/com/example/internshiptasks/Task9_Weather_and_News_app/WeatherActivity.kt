@@ -188,13 +188,13 @@ class WeatherActivity : AppCompatActivity() {
                 longitude = longitude,
 
                 current =
-                    "temperature_2m," +
+                            "temperature_2m," +
                             "relative_humidity_2m," +
                             "wind_speed_10m," +
                             "weather_code",
 
                 daily =
-                    "temperature_2m_max," +
+                            "temperature_2m_max," +
                             "temperature_2m_min," +
                             "weather_code",
 

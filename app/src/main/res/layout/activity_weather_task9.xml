@@ -92,7 +92,7 @@
             android:id="@+id/tvForecastTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=" Next 7 Days"
+            android:text=" Next 7 Days Forecast"
             android:textSize="20sp"
             android:textStyle="bold"
             android:textColor="@android:color/white"
