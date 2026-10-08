@@ -15,6 +15,8 @@ import com.example.internshiptasks.Task7_FirebaseTask.FormSubmitActivity
 import com.example.internshiptasks.Task8_RoomDBConnection.RoomTaskActivity
 import com.example.internshiptasks.Task9_Weather_and_News_app.LocationPermission
 import com.example.internshiptasks.Task10_Firebase_Notification_App.FirebaseNotificationActivity
+import com.example.internshiptasks.Task11_MVVM_on_WeatherApp.LocationPermissionActivity
+
 class MainActivity : AppCompatActivity() {
 
     private lateinit var btnUserFormTask: Button
@@ -27,6 +29,13 @@ class MainActivity : AppCompatActivity() {
     private lateinit var btnFirebaseTask: Button
     private lateinit var btnWeatherTask: Button
     private lateinit var btnFirebaseNotificationTask: Button
+
+    private lateinit var btnMvvmTask: Button
+
+    private lateinit var btnTask12: Button
+    private lateinit var btnTask13: Button
+
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -43,6 +52,8 @@ class MainActivity : AppCompatActivity() {
         btnRoomdbTask = findViewById(R.id.btnRoomdbTask)
         btnWeatherTask = findViewById(R.id.btnWeatherTask)
         btnFirebaseNotificationTask = findViewById(R.id.btnFirebaseNotificationTask)
+        btnMvvmTask = findViewById(R.id.btnMvvmTask)
+
 
         btnUserFormTask.setOnClickListener {
             startActivity(Intent(this, FormInputActivity::class.java))
@@ -82,6 +93,12 @@ class MainActivity : AppCompatActivity() {
         btnFirebaseNotificationTask.setOnClickListener {
             startActivity(Intent(this, FirebaseNotificationActivity::class.java))
         }
+
+        btnMvvmTask.setOnClickListener {
+            startActivity(Intent(this, LocationPermissionActivity::class.java))
+        }
+
+
 
     }
 

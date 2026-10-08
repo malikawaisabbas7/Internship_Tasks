@@ -87,6 +87,24 @@
                 android:layout_height="wrap_content"
                 android:text="Task 10 Firebase push notification task"/>
 
+            <Button
+                android:id="@+id/btnMvvmTask"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Task 11 MVVM architecture in Weather App"/>
+
+            <Button
+                android:id="@+id/btnTask12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Task 12..."/>
+
+            <Button
+                android:id="@+id/btnTask13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Task 13..."/>
+
         </LinearLayout>
 
     </ScrollView>
