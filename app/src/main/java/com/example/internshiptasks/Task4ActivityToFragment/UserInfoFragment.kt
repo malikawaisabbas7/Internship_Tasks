@@ -28,7 +28,6 @@ class UserInfoFragment : Fragment() {
 
     override fun onAttach(context: Context) {
         super.onAttach(context)
-        // Ensure the host Activity implements the interface
         listener = context as? OnUserDataSubmitListener
     }
 

@@ -19,6 +19,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.InternshipTasks">
+        <activity
+            android:name=".Task14_MVI_on_WeatherApp.NewsActivityMVI"
+            android:exported="false" />
 
         <activity
             android:name=".Task1_UserForm.FormOutputActivity"
@@ -89,6 +92,32 @@
         <activity
             android:name=".Task11_MVVM_on_WeatherApp.ui.WeatherActivity"
             android:exported="false" />
+        <activity
+            android:name=".Task12_MVC_on_WeatherApp.NewsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Task12_MVC_on_WeatherApp.WeatherActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Task12_MVC_on_WeatherApp.LocationPermissionActivity_MVC"
+            android:exported="false" />
+        <activity
+            android:name=".Task13_MVP_on_WeatherApp.presentation.NewsActivityMVP"
+            android:exported="false" />
+        <activity
+            android:name=".Task13_MVP_on_WeatherApp.presentation.WeatherActivityMVP"
+            android:exported="false" />
+        <activity
+            android:name=".Task13_MVP_on_WeatherApp.LocationPermissionActivityMVP"
+            android:exported="false" />
+
+        <activity
+            android:name=".Task14_MVI_on_WeatherApp.WeatherActivityMVI"
+            android:exported="false" />
+        <activity
+            android:name=".Task14_MVI_on_WeatherApp.LocationPermissionActivityMVI"
+            android:exported="false" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true">

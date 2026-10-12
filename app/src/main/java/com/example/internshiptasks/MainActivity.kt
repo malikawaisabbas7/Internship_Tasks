@@ -16,7 +16,9 @@ import com.example.internshiptasks.Task8_RoomDBConnection.RoomTaskActivity
 import com.example.internshiptasks.Task9_Weather_and_News_app.LocationPermission
 import com.example.internshiptasks.Task10_Firebase_Notification_App.FirebaseNotificationActivity
 import com.example.internshiptasks.Task11_MVVM_on_WeatherApp.LocationPermissionActivity
-
+import com.example.internshiptasks.Task12_MVC_on_WeatherApp.LocationPermissionActivity_MVC
+import com.example.internshiptasks.Task13_MVP_on_WeatherApp.LocationPermissionActivityMVP
+import com.example.internshiptasks.Task14_MVI_on_WeatherApp.LocationPermissionActivityMVI
 class MainActivity : AppCompatActivity() {
 
     private lateinit var btnUserFormTask: Button
@@ -29,11 +31,12 @@ class MainActivity : AppCompatActivity() {
     private lateinit var btnFirebaseTask: Button
     private lateinit var btnWeatherTask: Button
     private lateinit var btnFirebaseNotificationTask: Button
-
     private lateinit var btnMvvmTask: Button
+    private lateinit var btnMVCTask: Button
+    private lateinit var btnMVPTask: Button
+    private lateinit var btnMVITask: Button
 
-    private lateinit var btnTask12: Button
-    private lateinit var btnTask13: Button
+
 
 
 
@@ -53,7 +56,9 @@ class MainActivity : AppCompatActivity() {
         btnWeatherTask = findViewById(R.id.btnWeatherTask)
         btnFirebaseNotificationTask = findViewById(R.id.btnFirebaseNotificationTask)
         btnMvvmTask = findViewById(R.id.btnMvvmTask)
-
+        btnMVCTask = findViewById(R.id.btnMVCTask)
+        btnMVPTask = findViewById(R.id.btnMVPTask)
+        btnMVITask = findViewById(R.id.btnMVITask)
 
         btnUserFormTask.setOnClickListener {
             startActivity(Intent(this, FormInputActivity::class.java))
@@ -98,7 +103,17 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, LocationPermissionActivity::class.java))
         }
 
+        btnMVCTask.setOnClickListener{
+            startActivity(Intent(this, LocationPermissionActivity_MVC::class.java))
+        }
 
+        btnMVPTask.setOnClickListener{
+            startActivity(Intent(this, LocationPermissionActivityMVP::class.java))
+        }
+
+        btnMVITask.setOnClickListener{
+            startActivity(Intent(this, LocationPermissionActivityMVI::class.java))
+        }
 
     }
 

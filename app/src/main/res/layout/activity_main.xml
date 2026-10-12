@@ -94,16 +94,35 @@
                 android:text="Task 11 MVVM architecture in Weather App"/>
 
             <Button
-                android:id="@+id/btnTask12"
+                android:id="@+id/btnMVCTask"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Task 12..."/>
+                android:text="Task 12 MVC architecture in Weather App"/>
 
             <Button
-                android:id="@+id/btnTask13"
+                android:id="@+id/btnMVPTask"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Task 13..."/>
+                android:text="Task 13 MVP architecture in Weather App"/>
+
+            <Button
+                android:id="@+id/btnMVITask"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Task 14 MVI architecture in Weather App"/>
+
+            <Button
+                android:id="@+id/btnTask15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Task 15 ......"/>
+
+            <Button
+                android:id="@+id/btnTask16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Task 16 ....."/>
+
 
         </LinearLayout>
 

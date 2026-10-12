@@ -20,8 +20,6 @@ class ContactsFragment : Fragment() {
     private lateinit var contactAdapter: ContactAdapter
     private lateinit var recyclerViewContacts: RecyclerView
 
-
-
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,

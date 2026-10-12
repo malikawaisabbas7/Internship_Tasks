@@ -19,7 +19,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Name"
-        android:textSize="14sp" />
+        android:textSize="14sp"
+        android:textStyle="bold"/>
 
     <EditText
         android:id="@+id/etName"
@@ -27,61 +28,76 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:hint="Enter your name.."
-/>
+        android:background="@drawable/box_form_bg_task4" />
+
 
     <TextView
         android:id="@+id/tvPhone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Phone no"
-        android:textSize="14sp"/>
+        android:textSize="14sp"
+        android:textStyle="bold"/>
+
     <EditText
         android:id="@+id/etPhone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter Phone Number.."
         android:inputType="phone"
-/>
+        android:background="@drawable/box_form_bg_task4" />
+
 
     <TextView
         android:id="@+id/tvEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Email"
-        android:textSize="14sp"/>
+        android:textSize="14sp"
+        android:textStyle="bold"/>
+
     <EditText
         android:id="@+id/etEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter Email.."
         android:inputType="textEmailAddress"
-/>
+        android:background="@drawable/box_form_bg_task4" />
+
 
     <TextView
         android:id="@+id/tvAge"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Age"
-        android:textSize="14sp"/>
+        android:textSize="14sp"
+        android:textStyle="bold"/>
+
     <EditText
         android:id="@+id/etAge"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter Age.."
         android:inputType="number"
-/>
+        android:background="@drawable/box_form_bg_task4" />
+
 
     <TextView
         android:id="@+id/tvGender"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Gender"
-        android:textSize="14sp"/>
+        android:textSize="14sp"
+        android:textStyle="bold"/>
+
+
     <Spinner
         android:id="@+id/spinnerGender"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-/>
+        android:background="@drawable/box_form_bg_task4"/>
+
+
     <Button
         android:id="@+id/btnSubmit"
         android:layout_width="match_parent"
