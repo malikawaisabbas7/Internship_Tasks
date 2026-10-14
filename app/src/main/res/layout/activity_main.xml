@@ -112,10 +112,10 @@
                 android:text="Task 14 MVI architecture in Weather App"/>
 
             <Button
-                android:id="@+id/btnTask15"
+                android:id="@+id/btnSingletonTask"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Task 15 ......"/>
+                android:text="Task 15 Singleton Pattern on Phone Calls Data "/>
 
             <Button
                 android:id="@+id/btnTask16"

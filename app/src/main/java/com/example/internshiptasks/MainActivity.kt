@@ -19,6 +19,8 @@ import com.example.internshiptasks.Task11_MVVM_on_WeatherApp.LocationPermissionA
 import com.example.internshiptasks.Task12_MVC_on_WeatherApp.LocationPermissionActivity_MVC
 import com.example.internshiptasks.Task13_MVP_on_WeatherApp.LocationPermissionActivityMVP
 import com.example.internshiptasks.Task14_MVI_on_WeatherApp.LocationPermissionActivityMVI
+import com.example.internshiptasks.Task15_Singleton_Pattern_on_PhoneCallsData.PermissionActivity_Singleton
+
 class MainActivity : AppCompatActivity() {
 
     private lateinit var btnUserFormTask: Button
@@ -35,6 +37,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var btnMVCTask: Button
     private lateinit var btnMVPTask: Button
     private lateinit var btnMVITask: Button
+    private lateinit var btnSingletonTask : Button
 
 
 
@@ -59,6 +62,8 @@ class MainActivity : AppCompatActivity() {
         btnMVCTask = findViewById(R.id.btnMVCTask)
         btnMVPTask = findViewById(R.id.btnMVPTask)
         btnMVITask = findViewById(R.id.btnMVITask)
+        btnSingletonTask = findViewById(R.id.btnSingletonTask)
+
 
         btnUserFormTask.setOnClickListener {
             startActivity(Intent(this, FormInputActivity::class.java))
@@ -114,6 +119,12 @@ class MainActivity : AppCompatActivity() {
         btnMVITask.setOnClickListener{
             startActivity(Intent(this, LocationPermissionActivityMVI::class.java))
         }
+
+        btnSingletonTask.setOnClickListener{
+            startActivity(Intent(this,  PermissionActivity_Singleton::class.java))
+        }
+
+
 
     }
 

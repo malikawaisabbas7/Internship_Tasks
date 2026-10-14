@@ -19,9 +19,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.InternshipTasks">
-        <activity
-            android:name=".Task14_MVI_on_WeatherApp.NewsActivityMVI"
-            android:exported="false" />
+
 
         <activity
             android:name=".Task1_UserForm.FormOutputActivity"
@@ -117,6 +115,18 @@
         <activity
             android:name=".Task14_MVI_on_WeatherApp.LocationPermissionActivityMVI"
             android:exported="false" />
+        <activity
+            android:name=".Task14_MVI_on_WeatherApp.NewsActivityMVI"
+            android:exported="false" />
+
+        <activity
+            android:name=".Task15_Singleton_Pattern_on_PhoneCallsData.PermissionActivity_Singleton"
+            android:exported="false" />
+        <activity
+            android:name=".Task15_Singleton_Pattern_on_PhoneCallsData.HostActivity_Singleton"
+            android:exported="false" />
+
+
 
         <activity
             android:name=".MainActivity"

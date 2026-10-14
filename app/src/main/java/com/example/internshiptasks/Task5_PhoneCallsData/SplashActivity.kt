@@ -6,7 +6,6 @@ import android.os.Handler
 import android.os.Looper
 import com.example.internshiptasks.R
 import androidx.appcompat.app.AppCompatActivity
-import com.example.internshiptasks.Task5_PhoneCallsData.PermissionActivity
 
 class SplashActivity : AppCompatActivity() {
 
