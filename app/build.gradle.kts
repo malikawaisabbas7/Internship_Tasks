@@ -37,6 +37,10 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
+
+    viewBinding {
+        enable = true
+    }
 }
 
 dependencies {
@@ -76,4 +80,9 @@ dependencies {
     implementation("com.github.bumptech.glide:glide:4.16.0")
 
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.9.2")
+
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:<compatible-version>")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:<compatible-version>")
+
+    implementation("androidx.fragment:fragment-ktx:1.8.5")
 }

@@ -20,6 +20,9 @@ import com.example.internshiptasks.Task12_MVC_on_WeatherApp.LocationPermissionAc
 import com.example.internshiptasks.Task13_MVP_on_WeatherApp.LocationPermissionActivityMVP
 import com.example.internshiptasks.Task14_MVI_on_WeatherApp.LocationPermissionActivityMVI
 import com.example.internshiptasks.Task15_Singleton_Pattern_on_PhoneCallsData.PermissionActivity_Singleton
+import com.example.internshiptasks.Task16_Repository_Pattern_and_MVVM_in_WeatherApp.presentation.LocationPermissionActivity_MVVM_and_Repository
+import com.example.internshiptasks.Task17_Repository_Pattern_and_MVVM_on_PhoneCallsData.presentation.activity.PermissionActivityRepo_and_MVVM
+import com.example.internshiptasks.Task18_Singleton_Pattern_on_Weather_and_News_App.LocationPermissionActivitySingleton
 
 class MainActivity : AppCompatActivity() {
 
@@ -38,7 +41,11 @@ class MainActivity : AppCompatActivity() {
     private lateinit var btnMVPTask: Button
     private lateinit var btnMVITask: Button
     private lateinit var btnSingletonTask : Button
-
+    private lateinit var btnMVVMandRepositoryTask : Button
+    private lateinit var btnContactAppMVVMandRepositoryTask : Button
+    private lateinit var btnSingletonWeatherTask : Button
+    private lateinit var btnAdapterWeatherTask : Button
+    private lateinit var btnFactoryWeatherTask : Button
 
 
 
@@ -63,7 +70,11 @@ class MainActivity : AppCompatActivity() {
         btnMVPTask = findViewById(R.id.btnMVPTask)
         btnMVITask = findViewById(R.id.btnMVITask)
         btnSingletonTask = findViewById(R.id.btnSingletonTask)
-
+        btnMVVMandRepositoryTask = findViewById(R.id.btnMVVMandRepositoryTask)
+        btnContactAppMVVMandRepositoryTask = findViewById(R.id.btnContactAppMVVMandRepositoryTask)
+        btnSingletonWeatherTask = findViewById(R.id.btnSingletonWeatherTask)
+        btnAdapterWeatherTask = findViewById(R.id.btnAdapterWeatherTask)
+        btnFactoryWeatherTask = findViewById(R.id.btnFactoryWeatherTask)
 
         btnUserFormTask.setOnClickListener {
             startActivity(Intent(this, FormInputActivity::class.java))
@@ -124,7 +135,18 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this,  PermissionActivity_Singleton::class.java))
         }
 
+        btnMVVMandRepositoryTask.setOnClickListener{
+            startActivity(Intent(this, LocationPermissionActivity_MVVM_and_Repository::class.java))
+        }
 
+        btnContactAppMVVMandRepositoryTask.setOnClickListener{
+            startActivity(Intent(this, PermissionActivityRepo_and_MVVM::class.java))
+        }
+
+        btnSingletonWeatherTask.setOnClickListener{
+            startActivity(Intent(this, LocationPermissionActivitySingleton::class.java))
+
+        }
 
     }
 

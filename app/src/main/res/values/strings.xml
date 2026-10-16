@@ -8,4 +8,6 @@
     <string name="task_6_firebase_connection">Task 6 Firebase Connection</string>
     <string name="task_3_counter_task">Task 3 Counter Task</string>
     <string name="user_information">User Information</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

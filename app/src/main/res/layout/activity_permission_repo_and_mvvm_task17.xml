@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="top|center"
+    android:padding="24dp">
+
+    <CheckBox
+        android:id="@+id/checkboxContacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|start"
+        android:text="Contacts"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvContactsDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="14sp"
+        android:layout_marginStart="35dp"
+        android:textColor="@color/black"
+        android:text="Allow Contacts to access your contacts to dispaly in the app contacts." />
+
+    <CheckBox
+        android:id="@+id/checkboxRecentCalls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recent Calls"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tvRecentDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="14sp"
+        android:layout_marginStart="35dp"
+        android:textColor="@color/black"
+        android:text="Allow Recent Calls to access your recent calls to dispaly in the app recent calls." />
+
+    <TextView
+        android:id="@+id/tvPermissionTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contacts Permission"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingTop="30dp"/>
+
+    <TextView
+        android:id="@+id/tvPermissionMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="This app needs access to your contacts to display your contacts."
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/btnContinue"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:text="Continue" />
+
+
+</LinearLayout>

@@ -118,10 +118,36 @@
                 android:text="Task 15 Singleton Pattern on Phone Calls Data "/>
 
             <Button
-                android:id="@+id/btnTask16"
+                android:id="@+id/btnMVVMandRepositoryTask"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Task 16 ....."/>
+                android:text="Task 16 Repository Pattern and MVVM in Weather App"/>
+
+
+            <Button
+                android:id="@+id/btnContactAppMVVMandRepositoryTask"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Task 17 Repository Pattern and MVVM on Phone Calls Data"/>
+
+            <Button
+                android:id="@+id/btnSingletonWeatherTask"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Task 18 Singleton Pattern on Weather and News App"/>
+
+            <Button
+                android:id="@+id/btnAdapterWeatherTask"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Task 18 Aadapter Pattern on Weather and News App"/>
+
+            <Button
+                android:id="@+id/btnFactoryWeatherTask"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Task 18 Factory Pattern on Weather and News App"/>
+
 
 
         </LinearLayout>

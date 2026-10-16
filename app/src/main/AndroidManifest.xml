@@ -19,8 +19,33 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.InternshipTasks">
-
-
+        <activity
+            android:name=".Task18_Singleton_Pattern_on_Weather_and_News_App.NewsActivitySingleton"
+            android:exported="false" />
+        <activity
+            android:name=".Task18_Singleton_Pattern_on_Weather_and_News_App.WeatherActivitySingleton"
+            android:exported="false" />
+        <activity
+            android:name=".Task18_Singleton_Pattern_on_Weather_and_News_App.LocationPermissionActivitySingleton"
+            android:exported="false" />
+        <activity
+            android:name=".Task17_Repository_Pattern_and_MVVM_on_PhoneCallsData.presentation.activity.HostActivityRepo_and_MVVM"
+            android:exported="false" />
+        <activity
+            android:name=".Task17_Repository_Pattern_and_MVVM_on_PhoneCallsData.presentation.activity.PermissionActivityRepo_and_MVVM"
+            android:exported="false" />
+        <activity
+            android:name=".Task17_Repository_Pattern_and_MVVM_on_PhoneCallsData.presentation.activity.SplashActivityRepo_and_MVVM"
+            android:exported="false" />
+        <activity
+            android:name=".Task16_Repository_Pattern_and_MVVM_in_WeatherApp.presentation.LocationPermissionActivity_MVVM_and_Repository"
+            android:exported="false" />
+        <activity
+            android:name=".Task16_Repository_Pattern_and_MVVM_in_WeatherApp.presentation.NewsActivity_MVVMandRepository"
+            android:exported="false" />
+        <activity
+            android:name=".Task16_Repository_Pattern_and_MVVM_in_WeatherApp.presentation.WeatherActivity_MVVMandRepository"
+            android:exported="false" />
         <activity
             android:name=".Task1_UserForm.FormOutputActivity"
             android:exported="false" />
@@ -108,7 +133,6 @@
         <activity
             android:name=".Task13_MVP_on_WeatherApp.LocationPermissionActivityMVP"
             android:exported="false" />
-
         <activity
             android:name=".Task14_MVI_on_WeatherApp.WeatherActivityMVI"
             android:exported="false" />
@@ -118,16 +142,12 @@
         <activity
             android:name=".Task14_MVI_on_WeatherApp.NewsActivityMVI"
             android:exported="false" />
-
         <activity
             android:name=".Task15_Singleton_Pattern_on_PhoneCallsData.PermissionActivity_Singleton"
             android:exported="false" />
         <activity
             android:name=".Task15_Singleton_Pattern_on_PhoneCallsData.HostActivity_Singleton"
             android:exported="false" />
-
-
-
         <activity
             android:name=".MainActivity"
             android:exported="true">
