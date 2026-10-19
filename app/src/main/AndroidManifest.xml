@@ -21,6 +21,12 @@
         android:theme="@style/Theme.InternshipTasks">
 
 
+        <activity android:name=".Task20_Adapter_Pattern_on_WeatherApp.presentation.LocationPermissionActivityAdapter"
+            android:exported="false" />
+        <activity android:name=".Task20_Adapter_Pattern_on_WeatherApp.presentation.NewsActivityAdapter"
+            android:exported="false" />
+        <activity android:name=".Task20_Adapter_Pattern_on_WeatherApp.presentation.WeatherActivityAdapter"
+            android:exported="false" />
 
 
         <activity android:name=".Task19_Factory_Pattern_on_WeatherApp.presentation.LocationPermissionActivityFactory"
@@ -39,6 +45,8 @@
         <activity
             android:name=".Task18_Singleton_Pattern_on_Weather_and_News_App.LocationPermissionActivitySingleton"
             android:exported="false" />
+
+
         <activity
             android:name=".Task17_Repository_Pattern_and_MVVM_on_PhoneCallsData.presentation.activity.HostActivityRepo_and_MVVM"
             android:exported="false" />
@@ -48,6 +56,7 @@
         <activity
             android:name=".Task17_Repository_Pattern_and_MVVM_on_PhoneCallsData.presentation.activity.SplashActivityRepo_and_MVVM"
             android:exported="false" />
+
         <activity
             android:name=".Task16_Repository_Pattern_and_MVVM_in_WeatherApp.presentation.LocationPermissionActivity_MVVM_and_Repository"
             android:exported="false" />
@@ -57,30 +66,37 @@
         <activity
             android:name=".Task16_Repository_Pattern_and_MVVM_in_WeatherApp.presentation.WeatherActivity_MVVMandRepository"
             android:exported="false" />
+
         <activity
             android:name=".Task1_UserForm.FormOutputActivity"
             android:exported="false" />
+
         <activity
             android:name=".Task2_ColorScreen.ColorScreen"
             android:exported="false" />
+
         <activity
             android:name=".Task3_ResetButton.CounterActivity"
             android:exported="false" />
+
         <activity
             android:name=".Task4ActivityToFragment.FormActivity"
             android:exported="false" />
+
         <activity
             android:name=".Task5_PhoneCallsData.PermissionActivity"
             android:exported="false" />
         <activity
             android:name=".Task5_PhoneCallsData.HostActivity"
             android:exported="false" />
+
         <activity
             android:name=".Task6_Fragment_To_Fragment.HostActivityforFragments"
             android:exported="false" />
         <activity
             android:name=".Task7_FirebaseTask.FormSubmitActivity"
             android:exported="false" />
+
         <activity
             android:name=".Task7_FirebaseTask.UsersListScreen"
             android:exported="false" />
@@ -90,6 +106,7 @@
         <activity
             android:name=".Task8_RoomDBConnection.RoomTaskActivity"
             android:exported="false" />
+
         <activity
             android:name=".Task8_RoomDBConnection.UserDetailsScreen_RoomDB"
             android:exported="false" />
@@ -99,6 +116,7 @@
         <activity
             android:name=".Task9_Weather_and_News_app.NewsActivity"
             android:exported="false" />
+
         <activity
             android:name=".Task9_Weather_and_News_app.WeatherActivity"
             android:exported="false" />
@@ -108,6 +126,7 @@
         <activity
             android:name=".Task10_Firebase_Notification_App.FirebaseNotificationActivity"
             android:exported="false" />
+
 
         <service
             android:name=".Task10_Firebase_Notification_App.MyFirebaseMessagingService"
@@ -126,6 +145,7 @@
         <activity
             android:name=".Task11_MVVM_on_WeatherApp.ui.WeatherActivity"
             android:exported="false" />
+
         <activity
             android:name=".Task12_MVC_on_WeatherApp.NewsActivity"
             android:exported="false" />
@@ -138,12 +158,14 @@
         <activity
             android:name=".Task13_MVP_on_WeatherApp.presentation.NewsActivityMVP"
             android:exported="false" />
+
         <activity
             android:name=".Task13_MVP_on_WeatherApp.presentation.WeatherActivityMVP"
             android:exported="false" />
         <activity
             android:name=".Task13_MVP_on_WeatherApp.LocationPermissionActivityMVP"
             android:exported="false" />
+
         <activity
             android:name=".Task14_MVI_on_WeatherApp.WeatherActivityMVI"
             android:exported="false" />
@@ -153,12 +175,14 @@
         <activity
             android:name=".Task14_MVI_on_WeatherApp.NewsActivityMVI"
             android:exported="false" />
+
         <activity
             android:name=".Task15_Singleton_Pattern_on_PhoneCallsData.PermissionActivity_Singleton"
             android:exported="false" />
         <activity
             android:name=".Task15_Singleton_Pattern_on_PhoneCallsData.HostActivity_Singleton"
             android:exported="false" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
