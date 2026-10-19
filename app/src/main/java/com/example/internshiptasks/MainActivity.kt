@@ -23,6 +23,7 @@ import com.example.internshiptasks.Task15_Singleton_Pattern_on_PhoneCallsData.Pe
 import com.example.internshiptasks.Task16_Repository_Pattern_and_MVVM_in_WeatherApp.presentation.LocationPermissionActivity_MVVM_and_Repository
 import com.example.internshiptasks.Task17_Repository_Pattern_and_MVVM_on_PhoneCallsData.presentation.activity.PermissionActivityRepo_and_MVVM
 import com.example.internshiptasks.Task18_Singleton_Pattern_on_Weather_and_News_App.LocationPermissionActivitySingleton
+import com.example.internshiptasks.Task19_Factory_Pattern_on_WeatherApp.presentation.LocationPermissionActivityFactory
 
 class MainActivity : AppCompatActivity() {
 
@@ -148,6 +149,9 @@ class MainActivity : AppCompatActivity() {
 
         }
 
+        btnFactoryWeatherTask.setOnClickListener{
+            startActivity(Intent(this, LocationPermissionActivityFactory::class.java))
+        }
     }
 
 

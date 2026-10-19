@@ -16,6 +16,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
+import com.example.internshiptasks.BuildConfig
 
 class NewsActivitySingleton : AppCompatActivity() {
 
@@ -33,7 +34,7 @@ class NewsActivitySingleton : AppCompatActivity() {
     private var latitude: Double = 0.0
     private var longitude: Double = 0.0
 
-    private val GNEWS_API_KEY = "6fa25f5376f51c272aac8fed019c8e77"
+    private val GNEWS_API_KEY = BuildConfig.GNEWS_API_KEY
 
     companion object {
         const val EXTRA_CITY_NAME = "extra_city_name"
@@ -78,10 +79,11 @@ class NewsActivitySingleton : AppCompatActivity() {
 
         tvNewsStatus.text = "Loading news..."
 
-        if (GNEWS_API_KEY == "YOUR_GNEWS_API_KEY") {
-            tvNewsStatus.text =
-                "Please configure your GNews API key."
-
+        if (
+            GNEWS_API_KEY.isBlank() ||
+            GNEWS_API_KEY == "YOUR_GNEWS_API_KEY"
+        ) {
+            tvNewsStatus.text = "Please configure your GNews API key."
             return
         }
 

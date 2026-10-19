@@ -115,7 +115,7 @@
                 android:id="@+id/btnSingletonTask"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Task 15 Singleton Pattern on Phone Calls Data "/>
+                android:text="Task 15 Singleton Pattern on Contact App "/>
 
             <Button
                 android:id="@+id/btnMVVMandRepositoryTask"
@@ -128,25 +128,25 @@
                 android:id="@+id/btnContactAppMVVMandRepositoryTask"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Task 17 Repository Pattern and MVVM on Phone Calls Data"/>
+                android:text="Task 17 Repository Pattern and MVVM on Contact App"/>
 
             <Button
                 android:id="@+id/btnSingletonWeatherTask"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Task 18 Singleton Pattern on Weather and News App"/>
-
-            <Button
-                android:id="@+id/btnAdapterWeatherTask"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Task 18 Aadapter Pattern on Weather and News App"/>
+                android:text="Task 18 Singleton Pattern on Weather App"/>
 
             <Button
                 android:id="@+id/btnFactoryWeatherTask"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Task 18 Factory Pattern on Weather and News App"/>
+                android:text="Task 19 Factory Pattern on Weather App"/>
+
+            <Button
+                android:id="@+id/btnAdapterWeatherTask"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Task 20 Adapter Pattern on Weather App"/>
 
 
 

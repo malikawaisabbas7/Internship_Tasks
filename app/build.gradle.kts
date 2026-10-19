@@ -3,6 +3,8 @@ plugins {
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.google.services)
     alias(libs.plugins.ksp)
+
+    id("com.google.android.libraries.mapsplatform.secrets-gradle-plugin")
 }
 
 android {
@@ -38,9 +40,17 @@ android {
         jvmTarget = "11"
     }
 
-    viewBinding {
-        enable = true
+    buildFeatures {
+        buildConfig = true
+        viewBinding = true
     }
+
+
+}
+
+secrets {
+    propertiesFileName = "secrets.properties"
+    defaultPropertiesFileName = "secrets.defaults.properties"
 }
 
 dependencies {
